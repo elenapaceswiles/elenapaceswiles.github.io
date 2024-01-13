@@ -14,69 +14,67 @@ article {
     background: white;
 }
 
-/* img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-*/
-
 img {
 	max-width: 100%;
-	max-height: 100%;
+	object-fit: cover;
+	aspect-ratio: 4/3;
 }
 
-.row:hover {
+p a {
+	color: hotpink;
+}
+
+p a:visited {
+	color: rebeccapurple;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  flex: 2;
+  padding: 10px;
+}
+
+.main-column {
+  flex: 1;
+}
+
+.columns:hover {
 	background-color: #e6e6e6;
 }
 
-.row a {
+.columns a {
+	display: flex;
 	color: black;
         text-decoration: none;
 }
 
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-  padding: 10px;
-  height: 150px;
-}
-
-.left {
-  width: 30%;
-}
-
-.right {
-  width: 65%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
   }
 }
 
 p {
-  color: hotpink;
-  font-weight: bold;
   margin-top: 0px;
   text-align: left;
 }
 
 h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
 /*    margin-top: 4ch;
     border-bottom:1px solid #CCC;
     padding-bottom:3px; */
+}
+
+h3 {
+	font-size: 1em;
+	margin: 0px;
+	color: hotpink;
+	font-weight: bold;
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
@@ -106,7 +104,6 @@ nav a {
 
 nav h3 {
     margin: 0;
-    font-family: heading-font;
     float: left;
     color: black;
     text-align: center;
@@ -132,5 +129,4 @@ nav button:hover {background-color: #9cb2b8;}
         align-items: center;  
     }
   }
-}   
 
