@@ -52,6 +52,10 @@ p {
   margin: 1rem;
 }
 
+p img {
+	max-width: 100%;
+}
+
 h1 {
     font-size: 1em;
     font-family: heading-font;
