@@ -132,6 +132,7 @@ p a:visited {
 .full-size .gallery-item {
     scroll-snap-align: start;
     object-fit: contain;
+    max-width: 100vh;
 }
 
 .thumbnails img {
