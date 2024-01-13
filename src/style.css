@@ -42,7 +42,7 @@ p a:visited {
 }
 
 .columns:hover {
-	background-color: #e6e6e6;
+		background-color: lavenderblush;
 }
 
 .columns a {
@@ -100,6 +100,7 @@ nav a {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav h3 {
@@ -111,7 +112,7 @@ nav h3 {
     text-decoration: none;
 }
 
-nav a:hover {background-color: #e6e6e6;}
+nav a:hover {background-color: lavenderblush;}
 
 nav button {
     background-color: #b2cbd1;
@@ -123,10 +124,9 @@ nav button:hover {background-color: #9cb2b8;}
     * {font-size: 12px;}
     
 	nav {
-         display: flex;
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;  
-    }
+	}
   }
-

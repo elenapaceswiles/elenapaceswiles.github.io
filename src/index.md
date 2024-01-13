@@ -1,5 +1,5 @@
-# Hi, I'm Elena Paces-Wiles
+# Hi, I'm Elena Pačes-Wiles
 
-![Elena Paces-Wiles headshot](img/headshot.jpg)
+![Elena Pačes-Wiles headshot](img/headshot.jpg)
 
-I like journalism. Please give me money.
+ I am a senior co-editor for the Pirates' Hook, Riverside's student newspaper. This is my third year on the staff.

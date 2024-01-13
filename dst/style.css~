@@ -7,54 +7,6 @@ body {
     background: lavenderblush;
 }
 
-nav {
-    overflow: hidden;
-    background-color: white;
-    padding: 5px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav a {
-    font-size: 1em;
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav h3 {
-    margin: 0;
-    font-family: heading-font;
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav a:hover {background-color: #e6e6e6;}
-
-nav button {
-    background-color: #b2cbd1;
-}
-
-nav button:hover {background-color: #9cb2b8;}
-
-@media (max-width: 500px) { /* For small screen decices */
-    * {font-size: 12px;}
-    
-	nav {
-         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;  
-    }
-  }
-
-
 article {
     max-width: 900px;  /* For Desktop PC (see @media for Tablets/Phones) */
     padding: 2%;
@@ -62,18 +14,18 @@ article {
     background: white;
 }
 
-a {
-	color: hotpink;
-}
-
-a:visited {
-	color: rebeccapurple;
-}
-
 img {
 	max-width: 100%;
 	object-fit: cover;
 	aspect-ratio: 4/3;
+}
+
+p a {
+	color: hotpink;
+}
+
+p a:visited {
+	color: rebeccapurple;
 }
 
 .columns {
@@ -90,7 +42,7 @@ img {
 }
 
 .columns:hover {
-	background-color: #e6e6e6;
+		background-color: lavenderblush;
 }
 
 .columns a {
@@ -132,4 +84,48 @@ textarea {
     width: 75%;
 }
 
+nav {
+    overflow: hidden;
+    background-color: white;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+nav a {
+    font-size: 1em;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav h3 {
+    margin: 0;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {background-color: lavenderblush;}
+
+nav button {
+    background-color: #b2cbd1;
+}
+
+nav button:hover {background-color: #9cb2b8;}
+
+@media (max-width: 500px) { /* For small screen decices */
+    * {font-size: 12px;}
+    
+	nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+	}
+  }
