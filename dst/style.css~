@@ -52,6 +52,10 @@ p {
   margin: 1rem;
 }
 
+p img {
+	max-width: 100%;
+}
+
 h1 {
     font-size: 1em;
     font-family: heading-font;
@@ -118,7 +122,7 @@ p a:visited {
 .gallery-wrapper {
 /*    position: relative; */
 	margin: 0 auto;
-	/* max-width: 80%; */
+	max-width: 60%;
 }
 
 .full-size {
@@ -126,12 +130,13 @@ p a:visited {
     scroll-snap-type: x mandatory;
     margin-bottom: 10px;
     /*max-width: 400px;*/
-    max-height: 400px;
+    /*max-height: 500px;*/
     overflow-x: scroll;
 }
 .full-size .gallery-item {
     scroll-snap-align: start;
     object-fit: contain;
+    max-width: 50vh;
 }
 
 .thumbnails img {
