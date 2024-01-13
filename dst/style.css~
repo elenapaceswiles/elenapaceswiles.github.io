@@ -1,35 +1,74 @@
+@font-face {
+    font-family: body-font;
+    src: url(fonts/fanwood_text-webfont.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: heading-font;
+    src: url(fonts/bricolage.ttf);
+}
+
+@font-face {
+    font-family: bold-font;
+    src: url(fonts/fanwood_italic-webfont.woff);
+    font-weight: 400;
+}
+
 * {
-	font-size: 15px;
+	font-size: 19px;
 }
 
 html {
-    font-family: sans-serif;
+    font-family: body-font, sans-serif;
 } 
 
 body {
-    margin: 0;
+    margin: 0px;
     background: lavenderblush;
 }
 
 article {
+    line-height: 1.4;
     max-width: 900px;  /* For Desktop PC (see @media for Tablets/Phones) */
-    padding: 2%;
+    padding: 10px;
     margin: 10px auto ;
+    text-align: justify;
     background: white;
+}
+
+b {
+    font-family: bold-font;
+    font-weight: normal;
 }
 
 img {
 	max-width: 100%;
+	height: 100%;
 	object-fit: cover;
 	aspect-ratio: 4/3;
 }
 
-p a {
-	color: hotpink;
+p {
+  margin: 1rem;
 }
 
-p a:visited {
-	color: rebeccapurple;
+h1 {
+    font-size: 1em;
+    font-family: heading-font;
+    font-weight: normal;
+    margin: 1rem;
+    text-align: left;
+}
+
+h3 {
+	font-size: 0.8em;
+        font-family: heading-font;
+	margin: 0px;
+	color: hotpink;
+	/*font-weight: bold;*/
+        font-weight: normal;
+        text-align: left;
 }
 
 .columns {
@@ -38,7 +77,7 @@ p a:visited {
 
 .column {
   flex: 2;
-  padding: 10px;
+  margin: 10px;
 }
 
 .main-column {
@@ -49,65 +88,38 @@ p a:visited {
 		background-color: lavenderblush;
 }
 
-.columns a {
+.column p, .column h1, .column h3 {
+	margin-left: 0;
+}
+
+
+article a {
 	display: flex;
 	color: black;
         text-decoration: none;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 100%;
-  }
-}
-
-p {
-  margin-top: 0px;
-  text-align: left;
-}
-
-h1 {
-    font-size: 1.2em;
-/*    margin-top: 4ch;
-    border-bottom:1px solid #CCC;
-    padding-bottom:3px; */
-}
-
-h3 {
-	font-size: 1em;
-	margin: 0px;
+p a {
+	display: inline;
 	color: hotpink;
-	font-weight: bold;
 }
 
-textarea, input, button, select { font-family: inherit; font-size: inherit; }
-
-textarea {
-    resize: none;
-    width: 75%;
+p a:visited {
+	color: rebeccapurple;
 }
+
 
 nav {
     overflow: hidden;
     background-color: white;
-    padding: 5px 15px;
+    padding: 5px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 nav a {
-    font-size: 1em;
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-}
-
-nav h3 {
-    margin: 0;
+    font-family: heading-font;
     float: left;
     color: black;
     text-align: center;
@@ -123,13 +135,18 @@ nav button {
 
 nav button:hover {background-color: #9cb2b8;}
 
-@media (max-width: 500px) { /* For small screen decices */
-    * {font-size: 12px;}
-    
-	nav {
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .columns {
+  	  display: inline;
+  }
+
+  nav {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;  
 	}
-  }
+}
+
+
