@@ -28,9 +28,9 @@ body {
     background: lavenderblush;
 }
 
-img {
+/* img {
 	max-width: 100%;
-}
+} */
 
 article {
     line-height: 1.4;
@@ -115,6 +115,35 @@ p a:visited {
 	color: rebeccapurple;
 }
 
+.gallery-wrapper {
+/*    position: relative; */
+	margin: 0 auto;
+	/* max-width: 80%; */
+}
+
+.full-size {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    margin-bottom: 10px;
+    /*max-width: 400px;*/
+    /*max-height: 500px;*/
+    overflow-x: scroll;
+}
+.full-size .gallery-item {
+    scroll-snap-align: start;
+    object-fit: contain;
+}
+
+.thumbnails img {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.thumbnails a {
+    display: inline;
+    font-family: heading-font;
+    padding: 10px;
+}
 
 nav {
     overflow: hidden;
