@@ -1,3 +1,7 @@
+* {
+	font-size: 15px;
+}
+
 html {
     font-family: sans-serif;
 } 
@@ -100,6 +104,7 @@ nav a {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav h3 {

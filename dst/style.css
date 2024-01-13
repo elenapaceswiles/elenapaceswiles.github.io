@@ -1,3 +1,7 @@
+* {
+	font-size: 15px;
+}
+
 html {
     font-family: sans-serif;
 } 
@@ -94,7 +98,7 @@ nav {
 }
 
 nav a {
-    font-size: 1em;
+    font-size: 1.2em;
     float: left;
     color: black;
     text-align: center;
