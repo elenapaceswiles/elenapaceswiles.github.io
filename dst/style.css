@@ -190,7 +190,7 @@ nav button:hover {background-color: #9cb2b8;}
 	}
 	.gallery-wrapper {
 /*    position: relative; */
-	max-width: 100%;
+	max-width: 90%;
 }
 }
 
