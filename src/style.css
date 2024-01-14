@@ -128,7 +128,8 @@ p a:visited {
 .gallery-wrapper {
 /*    position: relative; */
 	margin: 0 auto;
-	width: 60%;
+	/* width: 60%; */
+	width: 50vh;
 }
 
 .full-size {
@@ -143,7 +144,7 @@ p a:visited {
 .full-size .gallery-item {
     scroll-snap-align: start;
     object-fit: contain;
-    /* width: 50vh; */
+    width: 50vh;
     max-width: fit-content;
 }
 
@@ -201,16 +202,17 @@ nav button:hover {background-color: #9cb2b8;}
         justify-content: center;
         align-items: center;  
 	}
-	.gallery-wrapper {
-/*    position: relative; */
+	/* .gallery-wrapper {
+    position: relative; 
 		width: 90%;
 	}
-/*	.full-size {
+	.full-size {
 		width: 100vh;
-	} */
+	} 
 	.full-size .gallery-item {
 		width: 50vh;
 	} 
+	*/
 }
 
 
