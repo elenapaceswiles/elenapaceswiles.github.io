@@ -16,10 +16,62 @@ After she completed her draft, I edited it to ensure we thoroughly covered this 
             <a href="#p3">Final</a>
     </div>
 </div>
+
+<div class="carousel">
+    <ul class="slides">
+      <input type="radio" name="radio-buttons" id="img-1" checked="">
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="img/fishbefore.png">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">
+            <span>‹</span>
+          </label>
+          <label for="img-2" class="next-slide">
+            <span>›</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-2">
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="img/fishedits.png">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-1" class="prev-slide">
+            <span>‹</span>
+          </label>
+          <label for="img-3" class="next-slide">
+            <span>›</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-3">
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="img/fishafter.png">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-2" class="prev-slide">
+            <span>‹</span>
+          </label>
+          <label for="img-1" class="next-slide">
+            <span>›</span>
+          </label>
+        </div>
+      </li>
+      <div class="carousel-dots">
+        <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+        <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+        <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+      </div>
+    </ul>
+  </div>
+
 <p>I helped a new newspaper student publish this article on our school’s marine science club.
 Although he was inexperienced and unfamiliar with many stylistic and grammar rules, he was eager to learn.
 I enjoyed editing his writing and assisting him in transforming his draft into his first ever story.</p>
-<p>
 <div class="columns">
   <img src="img/comment1.png">
   <img src="img/comment2.png">
@@ -28,4 +80,3 @@ I enjoyed editing his writing and assisting him in transforming his draft into h
   <img src="img/comment5.png">
   <img src="img/comment6.png">
 </div>
-</p>
