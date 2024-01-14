@@ -128,7 +128,7 @@ p a:visited {
 .gallery-wrapper {
 /*    position: relative; */
 	margin: 0 auto;
-	width: 60%;
+	max-width: 60%;
 }
 
 .full-size {
@@ -138,13 +138,11 @@ p a:visited {
     /*max-width: 400px;*/
     /*max-height: 500px;*/
     overflow-x: scroll;
-/*    width: 50vh;*/
 }
 .full-size .gallery-item {
     scroll-snap-align: start;
     object-fit: contain;
-    /* width: 50vh; */
-    max-width: fit-content;
+    width: 50vh;
 }
 
 .thumbnails img {
@@ -203,14 +201,8 @@ nav button:hover {background-color: #9cb2b8;}
 	}
 	.gallery-wrapper {
 /*    position: relative; */
-		width: 90%;
-	}
-/*	.full-size {
-		width: 100vh;
-	} 
-	.full-size .gallery-item {
-		width: 100vh;
-	} */
+	max-width: 90%;
+}
 }
 
 
