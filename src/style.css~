@@ -31,6 +31,9 @@ body {
 /* img {
 	max-width: 100%;
 } */
+img {
+	margin: 0 auto;
+}
 
 article {
     line-height: 1.4;
@@ -46,7 +49,10 @@ b {
     font-weight: normal;
 }
 
-
+.columns img {
+	object-fit: contain;
+	padding: 10px;
+}
 
 p {
   margin: 1rem;
@@ -77,6 +83,7 @@ h3 {
 
 .columns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -150,6 +157,10 @@ p a:visited {
     padding: 10px;
 }
 
+.thumbnails a:hover {
+	background-color: lavenderblush;
+}
+
 nav {
     overflow: hidden;
     background-color: white;
@@ -190,7 +201,7 @@ nav button:hover {background-color: #9cb2b8;}
 	}
 	.gallery-wrapper {
 /*    position: relative; */
-	max-width: 100%;
+	max-width: 90%;
 }
 }
 

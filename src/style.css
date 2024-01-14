@@ -31,6 +31,10 @@ body {
 /* img {
 	max-width: 100%;
 } */
+img {
+	margin: 0 auto;
+	display: block;
+}
 
 article {
     line-height: 1.4;
@@ -46,7 +50,10 @@ b {
     font-weight: normal;
 }
 
-
+.columns img {
+	object-fit: contain;
+	padding: 10px;
+}
 
 p {
   margin: 1rem;
@@ -77,6 +84,7 @@ h3 {
 
 .columns {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -148,6 +156,10 @@ p a:visited {
     display: inline;
     font-family: heading-font;
     padding: 10px;
+}
+
+.thumbnails a:hover {
+	background-color: lavenderblush;
 }
 
 nav {
