@@ -119,6 +119,7 @@ article a {
 p a {
 	display: inline;
 	color: mediumvioletred;
+        text-decoration: underline;
 }
 
 p a:visited {

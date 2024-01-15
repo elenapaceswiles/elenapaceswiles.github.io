@@ -374,10 +374,10 @@ nav button:hover {background-color: #9cb2b8;}
 		width: 85vw;
 	} 
 	ul.slides {
-    height: 80vw;
+    height: 100vw;
     }
     .carousel-controls {
-    	    line-height: 80vw;
+    	    line-height: 100vw;
     }
 }
 
