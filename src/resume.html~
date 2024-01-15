@@ -1,30 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Portfolio</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<nav>
-		<a href="index.html">About Me</>
-		<a href="diversity.html">Commitment to Diversity</a>
-		<a href="writing.html">Writing & Reporting</a>
-		<a href="editing.html">Editing & Leadership</a>
-		<a href="design.html">Design</a>
-		<a href="photography.html">Photography</a>
-		<a href="essay.html">Essay</a>
-		<a href="resume.html">Resume</a>
-	</nav>
-	<article>
 <p style="text-align:center;"><strong>Elena M. Pačes-Wiles</strong></p>
-<hr><h1>Education</h1>
+<hr><h3>Education</h3>
 <p><strong>Riverside High School, Class of 2024</strong><span class="right">Durham, NC </p>
 <p><strong>GPA:</strong> Weighted: 4.5 / Unweighted: 4.0 </p>
 <p><strong>Relevant Coursework:</strong> AP World History, AP US History, AP Language and Composition, AP Literature and Composition, AP Government and Politics, AP Environmental Science, AP Calculus AB (2023-24), AP Psychology (2023-24) </p>
 <p><strong>PLTW Engineering Program</strong> (2020-24)</p>
 <p><strong>St. John’s College Summer Academy</strong> (2023)</p>
-<hr><h1>Activities</h1>
+<hr><h3>Activities</h3>
 <p><strong>Journalism</strong><span class="right"></p>
 <p><em>The Pirates’ Hook</em>, Riverside High School<span class="right">Durham, NC</p>
 <p>&emsp;&emsp;&emsp;Head Writing Editor <span class="right">2023-2024</p>
@@ -60,7 +41,7 @@
 <p>&emsp;&emsp;&emsp;Intern and Organizer<span class="right"> 2023</p>
 <p>Durham Animal Protection Society<span class="right">Durham, NC</p>
 <p>&emsp;&emsp;&emsp;Volunteer, Animal Care<span class="right"> 2020-2023</p>
-<hr><h1>Awards/Honors</h1>
+<hr><h3>Awards/Honors</h3>
 <p><strong>Journalism</strong></p>
 <p>North Carolina Scholastic Media Association<span class="right">2022</p>
 <p>&emsp;&emsp;&emsp;Statewide Media Contest, Feature Story Category, Second Place</p>
@@ -72,4 +53,3 @@
 <p><strong>National Technical Honor Society</strong><span class="right">2023-2024</p>
 <p>Secretary, Riverside High School chapter</p>
 <p><strong>AP Scholar with Distinction</strong><span class="right">2023</p>
-
