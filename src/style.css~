@@ -69,6 +69,13 @@ h1 {
     text-align: left;
 }
 
+h2 {
+	font-size: 0.8em;
+        font-family: heading-font;
+        font-weight: normal;
+        text-align: left;
+}
+
 h3 {
 	font-size: 0.8em;
         font-family: heading-font;
@@ -317,9 +324,13 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 input:checked + .slide-container .nav label { display: block; }
 
+.right{
+    float:right;
+}
 
-
-
+.left{
+    float:left;
+}
 
 nav {
     overflow: hidden;

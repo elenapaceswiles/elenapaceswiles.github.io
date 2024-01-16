@@ -69,6 +69,14 @@ h1 {
     text-align: left;
 }
 
+h2 {
+	font-size: 0.8em;
+        font-family: heading-font;
+	margin: auto 1rem;
+        font-weight: normal;
+        text-align: left;
+}
+
 h3 {
 	font-size: 0.8em;
         font-family: heading-font;
