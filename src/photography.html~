@@ -1,15 +1,20 @@
+<!--
 <div class="columns">
-  <img style="max-width:280px" src="img/gallery1.jpg">
-  <img style="max-width:280px" src="img/gallery2.jpg">
-  <img style="max-width:280px" src="img/gallery3.jpg">
-  <img style="max-width:280px" src="img/gallery4.jpg">
-  <img style="max-width:280px" src="img/gallery5.jpg">
-  <img style="max-width:280px" src="img/gallery6.jpg">
-  <img style="max-width:280px" src="img/gallery7.jpg">
-  <img style="max-width:280px" src="img/gallery8.jpg">
-  <img style="max-width:280px" src="img/gallery9.jpg">
-  <img style="max-width:280px" src="img/gallery10.jpg">
-  <img style="max-width:280px" src="img/gallery11.jpg">
+  <img style="width:280px" src="img/gallery1.jpg">
+  <img style="width:280px" src="img/gallery2.jpg">
+  <img style="width:280px" src="img/gallery3.jpg">
+  <img style="width:280px" src="img/gallery4.jpg">
+  <img style="width:280px" src="img/gallery5.jpg">
+  <img style="width:280px" src="img/gallery6.jpg">
+  <img style="width:280px" src="img/gallery7.jpg">
+  <img style="width:280px" src="img/gallery8.jpg">
+  <img style="width:280px" src="img/gallery9.jpg">
+  <img style="width:280px" src="img/gallery10.jpg">
+  <img style="width:280px" src="img/gallery11.jpg">
+</div>
+!-->
+<div class="columns">
+  <img src="img/gallery.png">
 </div>
 <hr>
 <a href="https://thepirateshook.com/2024/02/01/photo-gallery-january-31-teacher-protest/">
