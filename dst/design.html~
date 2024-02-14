@@ -1,4 +1,25 @@
 <!--image width just under 50% or 100% ??!-->
+<style>
+  #seeMore {
+    display: none;
+  }
+
+  #seeMore:target {
+    display: block;
+  }
+</style>
+<a style="display:block" href="#seeMore">
+<div class="columns">
+  <img style="width:420px" src="img/abortion-1.png">
+  <img style="width:420px" src="img/abortion-2.png">
+  <img style="width:420px" src="img/abortion-3.png">
+  <img style="width:420px" src="img/abortion-4.png">
+</div>
+<p>ABORTION TEXT</p>
+</a>
+<section id='seeMore'>
+</section>
+<hr>
 <div class="columns">
   <img style="width:420px" src="img/p1-1.png">
   <img style="width:420px" src="img/p2-1.png">

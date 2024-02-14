@@ -14,8 +14,21 @@
 </div>
 !-->
 <div class="columns">
-  <img src="img/gallery.png">
+  <img style="padding:0" src="img/gallery.png">
 </div>
+<hr>
+<a href="https://thepirateshook.com/2024/02/12/photo-gallery-pirates-win-february-9-basketball-game-50-48-against-jordan/">
+<div class="columns">
+  <div class="column main-column">
+          <img src="img/gallery4.jpg">
+  </div>
+  <div class="column">
+    <h3>MULTIMEDIA</h3>
+    <h1>Photo Gallery: Pirates Win February 9 Basketball Game 50-48 against Jordan</h1>
+    <p>The Riverside Pirates won 50-48 against Jordan Falcons in a February 9 basketball game. This was my first time photographing sports and I’m happy with how the photos turned out despite my lack of experience.</p>
+  </div>
+</div>
+</a>
 <hr>
 <a href="https://thepirateshook.com/2024/02/01/photo-gallery-january-31-teacher-protest/">
 <div class="columns">
