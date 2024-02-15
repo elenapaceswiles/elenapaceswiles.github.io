@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Portfolio</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<nav>
-		<a href="index.html">About Me</>
-		<a href="essay.html">Essay</a>
-		<a href="resume.html">Resume</a>
-		<a href="writing.html">Writing & Reporting</a>
-		<a href="literacy.html">Law, Ethics and News Literacy</a>
-		<a href="editing.html">Editing & Leadership</a>
-		<a href="design.html">Design</a>
-		<a href="photography.html">Photography</a>
-	</nav>
-	<article>
 <p style="text-align:center;"><strong>Elena M. Pačes-Wiles</strong></p>
 <hr><h1>Education</h1>
 <p style="text-align: left"><strong>Riverside High School, Class of 2024</strong><span class="right">Durham, NC </p>
@@ -67,8 +48,7 @@
 <p style="text-align: left">North Carolina Scholastic Media Association<span class="right">2022</p>
 <p style="text-align: left; margin-left: 6vw">Statewide Media Contest, Feature Story Category, Second Place</p>
 <p style="text-align: left"><strong>Cross Country</strong></p>
-<p style="text-align: left">City-County Meet<span class="right">2022<strong></strong></p>
-<p style="text-align: left; margin-left: 6vw">First Place Team</p>
+<p style="text-align: left">City-County Meet, First Place Team<span class="right">2022<strong></strong></p>
 <p style="text-align: left">Coaches’ Award: Most Improved  <span class="right"> 2022</p>
 <p style="text-align: left"><strong>National Honor Society</strong><span class="right">2022-2024</p>
 <p style="text-align: left">Riverside High School chapter</p>
@@ -77,4 +57,3 @@
 <p style="text-align: left">Riverside High School chapter</p>
 <p style="text-align: left; margin-left: 6vw">Secretary</p>
 <p style="text-align: left"><strong>AP Scholar with Distinction</strong><span class="right">2023</p>
-

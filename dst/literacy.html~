@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Portfolio</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<nav>
-		<a href="index.html">About Me</>
-		<a href="essay.html">Essay</a>
-		<a href="resume.html">Resume</a>
-		<a href="writing.html">Writing & Reporting</a>
-		<a href="literacy.html">Law, Ethics and News Literacy</a>
-		<a href="editing.html">Editing & Leadership</a>
-		<a href="design.html">Design</a>
-		<a href="photography.html">Photography</a>
-	</nav>
-	<article>
 <a href="https://thepirateshook.com/2024/02/13/murder-or-healthcare/">
 <div class="columns">
   <div class="column main-column">
@@ -34,7 +15,7 @@ Regardless, prospective mothers have less time to decide.</p>
 Prior to writing this article, I had my own beliefs about abortion and was fairly knowledgeable on the issue.
 I live in a liberal area and the vast majority of my school community is pro-choice. The most valuable part of the experience was learning from those on the other side.
 Through this process, I was forced to venture outside of my comfort zone and reach out to dozens of churches and pro-life organizations. By including these sources, I was able to balance the perspectives I already had.
-Since I felt like this was an important topic for the whole school community, I asked my bilingual classmates to <a href="https://thepirateshook.com/2024/02/14/atencion-medica-o-homicidio/">translate my article</a>.</p>
+Since I felt like this was an important topic for the whole school community, I asked my bilingual classmates to <a href="https://thepirateshook.com/2024/02/14/atencion-medica-o-homicidio/">translate my article</a>, so it could reach the whole school.</p>
 <hr>
 <a href="https://thepirateshook.com/2023/02/26/when-northgates-fate-went-south/">
 <div class="columns">
@@ -72,5 +53,4 @@ His GPA is a 4.6.</p>
 I published this article under the mentorship of a local journalist.
 This project sparked my commitment to diversity and love of investigative journalism.
 It required me to ask difficult questions and ask not just “what?” but “why?” I ensured I understood all sides of the story by learning from district employees in addition to elementary teachers and my peers’ personal experiences.</p>
-
 

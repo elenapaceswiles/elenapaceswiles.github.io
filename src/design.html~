@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Portfolio</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<nav>
-		<a href="index.html">About Me</>
-		<a href="essay.html">Essay</a>
-		<a href="resume.html">Resume</a>
-		<a href="writing.html">Writing & Reporting</a>
-		<a href="literacy.html">Law, Ethics and News Literacy</a>
-		<a href="editing.html">Editing & Leadership</a>
-		<a href="design.html">Design</a>
-		<a href="photography.html">Photography</a>
-	</nav>
-	<article>
 <!--image width just under 50% or 100% ??!-->
 <div class="columns">
   <img style="width:420px" src="img/abortion-1.png">
@@ -32,8 +13,8 @@
 I decided to use red and blue to represent the two sides, engaging artwork to draw readers, and emotion-provoking pull quotes.
 I also decided to include the full Spanish version in print, doubling my pages.
 In the past, I used QR codes to link to translations.
-But when my advisor told me that ESL teachers often use our newspapers in the classroom, I knew I wanted to include it in print.
-Designing a cohesive but not redundant eight page spread was difficult, especially since I don’t speak Spanish, but with the assistance of my advisor, bilingual classmates, and staff-artists, I was able to create a design I am happy with.</p>
+But when my advisor told me that ESL teachers often use our newspapers in the classroom, I knew I wanted to include it.
+Designing a cohesive but not redundant eight page spread was difficult, especially since I don’t speak Spanish, but with the assistance of my advisor, bi-lingual classmates, and staff-artists, I was able to create a design I am happy with.</p>
 <hr>
 <div class="columns">
   <img style="width:420px" src="img/p1-1.png">
@@ -71,5 +52,4 @@ This taught me that it takes a lot of patience to design a page.</p>
 <p>This is the first page I ever designed.
 Although I would do many things differently now, I am proud of the effort I put into it.
 Through this story, I learned how to use InDesign to design a print edition.</p>
-
 
