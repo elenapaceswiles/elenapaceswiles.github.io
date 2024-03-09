@@ -9,17 +9,15 @@
 	<nav>
 		<a href="index.html">About Me</>
 		<a href="essay.html">Essay</a>
+		<a href="resume.html">Resume</a>
 		<a href="writing.html">Writing & Reporting</a>
-		<a href="literacy.html">Law, Ethics & News Literacy</a>
+		<a href="literacy.html">Law, Ethics and News Literacy</a>
 		<a href="editing.html">Editing & Leadership</a>
 		<a href="design.html">Design</a>
 		<a href="photography.html">Photography</a>
-		<a href="broadcast.html">Broadcast</a>
-		<a href="web.html">Web & Social Media</a>
-		<a href="marketing.html">Marketing & Audience Engagement</a>
-		<a href="resume.html">Resume</a>
 	</nav>
 	<article>
+
 <div style="float:left; padding: 10px">
 	<img style="padding-bottom: 2px" src="img/lilelena.jpg">
 	<p style="font-size: 0.8em; margin: 0">The author at age four at Disney World.</p>
@@ -95,4 +93,3 @@ Unfortunately, we don&#8217;t have the resources to publish our entire issue in 
 <p>Just like the girl who wore her hair in pigtails and stood barely three feet tall, when I think about the future I dream of real change.
 Through student journalism I&#8217;ve learned how to transform this dream into reality.
 My time at the Hook will stay with me forever, inspiring me to continue fighting for equity and advocating through writing wherever I go.</p>
-
