@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Portfolio</title>
-<link href="style.css" rel="stylesheet" type="text/css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-</head>
-<body>
-	<nav>
-		<a href="index.html">About Me</>
-		<a href="essay.html">Essay</a>
-		<a href="writing.html">Writing & Reporting</a>
-		<a href="literacy.html">Law, Ethics & News Literacy</a>
-		<a href="editing.html">Editing & Leadership</a>
-		<a href="design.html">Design</a>
-		<a href="photography.html">Photography</a>
-		<a href="broadcast.html">Broadcast</a>
-		<a href="web.html">Web & Social Media</a>
-		<a href="marketing.html">Marketing & Audience Engagement</a>
-		<a href="resume.html">Resume</a>
-	</nav>
-	<article>
 <div style="float:left; padding: 10px">
 	<img style="padding-bottom: 2px" src="img/lilelena.jpg">
 	<p style="font-size: 0.8em; margin: 0">The author at age four at Disney World.</p>
@@ -94,10 +69,8 @@ We must also ensure our community members have equal access to our content.
 Riverside is 38.8 percent Latino and English-as-a-Second-Language students make up 21% of the total population, presenting a unique challenge to the Hook’s mission to be a news resource for the entire school.
 To my knowledge, the Hook is the only bilingual high school newspaper in the state, making it even more important that we are intentional about informing the community.</p>
 <p>As the Head Writing Editor of the Pirates’ Hook, I revise practically every piece we publish and determine what the school community needs to know.
-My role as editor includes deciding which stories to translate.
-Unfortunately, we don't have the resources to publish our entire issue in both English and Spanish, so we must work together as a staff to identify which stories are most relevant to Spanish-speaking students and families.
-</p>
+My role as editor includes determining which stories to translate.
+Unfortunately, we don&#8217;t have the resources to publish our entire issue in both English and Spanish, so we must work together as a staff to determine which stories are most relevant to Spanish-speaking students and families.</p>
 <p>Just like the girl who wore her hair in pigtails and stood barely three feet tall, when I think about the future I dream of real change.
 Through student journalism I&#8217;ve learned how to transform this dream into reality.
 My time at the Hook will stay with me forever, inspiring me to continue fighting for equity and advocating through writing wherever I go.</p>
-
