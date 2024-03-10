@@ -365,13 +365,10 @@ nav button:hover {background-color: #9cb2b8;}
   	  display: inline;
   }
 
-  nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;  
-	}
+
 }
+
+
 
 @media (max-width: 900px) {
 	/*
@@ -392,4 +389,13 @@ nav button:hover {background-color: #9cb2b8;}
     .carousel-controls {
     	    line-height: 100vw;
     }
+}
+
+@media (max-width: 1100px) {
+  nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;  
+	}
 }
